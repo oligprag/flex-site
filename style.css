@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8
+}
+
+.hero-section p, .header-links ul li {
+    font-size: 14px;
+    color: #f9faf8
+}
+
+.top-container {
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+.container-top {
+    background-color: #1f2937;
+    padding-bottom: 120px;
+
+}
+
+.hero-section img {
+    width: 300px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-links ul {
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.hero-section {
+    display: flex;
+    margin-top: 70px;
+
+}
+
+.sign-up.btn {
+    display: flex;
+    width: 120px;
+    background-color: #3882f6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 0;
+}
+
+.second-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.second-container h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.second-container-flex {
+    display: flex;
+    gap: 40px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.third-container {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.third-text {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.third-text p:first-child {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.third-text p:nth-child(2) {
+    text-align: right;
+    font-weight: bold;
+}
+
+.fourth-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-box {
+    background-color: #3882f6;
+    display:inline-block;
+    padding: 30px;
+    border-radius: 9px;
+    color: white;
+    font-size: small;
+
+}
+
+.fourth-box > p {
+    font-weight: bold;
+}
+
+.fourth-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up {
+    padding: 5px 15px;
+    border-radius: 9px;
+    border: 1px solid white;
+    margin-left: 80px;
+}
